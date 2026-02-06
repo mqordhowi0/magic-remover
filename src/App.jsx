@@ -526,7 +526,7 @@ function App() {
       {/* FOOTER */}
       <footer className="absolute bottom-0 left-0 w-full px-4 py-3 bg-slate-950/80 backdrop-blur-md border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-[10px] md:text-xs text-slate-500 z-30">
         <div className="mb-2 md:mb-0">
-          Made with ❤️ by <span className="text-slate-300 font-bold">Muhammad Qordhowi Abdurrahman</span>
+          Made with ❤️ by <span className="text-slate-300 font-bold">Muhammad Qordhowi Abdurrahman masnya Taqiyyatul Azizah</span>
         </div>
         <div className="flex gap-4 items-center">
           <a href="https://www.instagram.com/macchiatoberaskencur/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-pink-500 transition-colors">
