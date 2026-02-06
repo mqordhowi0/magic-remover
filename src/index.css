@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animasi Loading Shimmer */
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s linear infinite;
+}
+
+/* Custom Scrollbar buat Toolbar biar manis */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1e293b; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #475569; 
+  border-radius: 4px;
+}
